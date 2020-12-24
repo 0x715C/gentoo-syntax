@@ -4,7 +4,7 @@ distapp = gentoo-syntax
 distver := $(shell date -u +%Y%m%d)
 distpkg := $(distapp)-$(distver)
 
-PREFIX = ${HOME}/.vim/
+PREFIX = ${HOME}/.config/nvim/
 
 files = $(wildcard \
 	doc/* \
